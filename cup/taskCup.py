@@ -2,7 +2,7 @@ import numpy as np
 
 from panda_gym.envs.core import Task
 from panda_gym.utils import distance
-import pybulletCup
+import cup.pybulletCup as pybulletCup
 
 class Shake(Task):
     def __init__(

@@ -2,7 +2,7 @@ import gymnasium as gym
 import panda_gym
 import panda_gym.pybullet
 
-from taskCup import Shake
+from cup.taskCup import Shake
 
 """
 env = gym.make('PandaReach-v3', render_mode="human")

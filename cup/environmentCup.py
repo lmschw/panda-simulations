@@ -1,8 +1,8 @@
 from panda_gym.envs.core import RobotTaskEnv
 from panda_gym.pybullet import PyBullet
 
-from taskCup import Shake
-from pybulletCup import PybulletCup
+from cup.taskCup import Shake
+from cup.pybulletCup import PybulletCup
 
 from panda_gym.envs.robots.panda import Panda
 
