@@ -1,7 +1,7 @@
 from panda_gym.envs.core import RobotTaskEnv
 from panda_gym.pybullet import PyBullet
 
-from taskGrabby import Shake
+from taskCup import Shake
 from CustomPybullet import CustomPybullet
 
 from panda_gym.envs.robots.panda import Panda
