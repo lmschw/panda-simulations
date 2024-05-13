@@ -2,12 +2,12 @@ import numpy as np
 
 from panda_gym.envs.core import Task
 from panda_gym.utils import distance
-import CustomPybullet
+import pybulletCup
 
 class Shake(Task):
     def __init__(
         self,
-        sim: CustomPybullet,
+        sim: pybulletCup,
         reward_type: str = "sparse",
         distance_threshold: float = 0.05,
         goal_xy_range: float = 0.3,

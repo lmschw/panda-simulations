@@ -47,7 +47,7 @@ print(task.compute_reward(task.get_achieved_goal(), task.get_goal()))
 
 """
 
-from CustomEnv import CupEnvironment
+from environmentCup import CupEnvironment
 
 env = CupEnvironment(render_mode="human")
 

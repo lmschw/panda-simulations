@@ -10,7 +10,7 @@ import pybullet_utils.bullet_client as bc
 
 import panda_gym.assets
 
-class CustomPybullet(PyBullet):
+class PybulletCup(PyBullet):
     def create_cup(
         self,
         body_name: str,
